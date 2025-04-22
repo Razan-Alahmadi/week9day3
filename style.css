@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #searchInput, #title, #body {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #productList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  #productList li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
